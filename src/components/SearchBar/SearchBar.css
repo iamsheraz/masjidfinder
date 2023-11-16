@@ -1,0 +1,36 @@
+.search-bar {
+    margin: 0 auto;
+    max-width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.search-input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    /* Rounded corners on the left side */
+    font-size: 1rem;
+}
+
+.search-button {
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    /* Bootstrap primary color */
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    /* Rounded corners on the right side */
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+    background-color: #0056b3;
+    /* Darker blue on hover */
+}
