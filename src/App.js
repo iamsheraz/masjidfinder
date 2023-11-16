@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>
-          Masjid Finder
+          Masjid Finder V2
         </h1>
       </header>
       <main>
