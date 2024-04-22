@@ -1,13 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+
+import Header from "./components/Header";
+import AutoComplete from "./components/AutoComplete";
 
 function App() {
+  const header = "Mosque Finder";
   return (
-    <div className="App">
-      <h1>
-        Masjid Finder
-      </h1>
-    </div>
+    <>
+      <Header header={header} />
+      <AutoComplete />
+    </>
   );
 }
 
