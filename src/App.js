@@ -1,24 +1,15 @@
-import React from 'react';
-import SearchBar from './components/SearchBar/SearchBar';
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
+import Header from "./components/Header";
+import AutoComplete from "./components/AutoComplete";
 
 function App() {
+  const header = "Mosque Finder";
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>
-          Masjid Finder
-        </h1>
-      </header>
-      <main>
-        <SearchBar /* props if needed */ />
-      </main>
-      <footer className="App-footer">
-        {/* Fotter content */}
-      </footer>
-    </div>
+    <>
+      <Header header={header} />
+      <AutoComplete />
+    </>
   );
 }
 
